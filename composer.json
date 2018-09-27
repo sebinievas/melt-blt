@@ -1,0 +1,32 @@
+
+{
+  "name": "sebinievas/melt-blt",
+  "description": "melt BLT",
+  "keywords": [ "drupal", "testing", "deployment", "automation", "template" ],
+  "authors": [
+      {
+          "name": "Sebastian Nievas"
+      }
+  ],
+  "support": {
+      "issues": "https://github.com/sebinievas/melt-blt/issues"
+  },
+  "type": "composer-plugin",
+  "license": "GPL-2.0-only",
+  "config": {
+      "sort-packages": true,
+      "php": "7"
+  },
+  "autoload": {
+    "psr-4": {
+      "Meltmedia\\Blt\\": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "scripts": {
+    "post-create-project-cmd": [
+      "php -r \"echo 'What is good';\""
+    ]
+  }
+}

@@ -1,0 +1,4 @@
+#!/usr/bin/env php
+<?php
+
+echo "Executed from bin/melt-blt";
