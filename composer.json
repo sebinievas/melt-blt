@@ -1,18 +1,20 @@
 
 {
-  "name": "sebinievas/melt-blt",
+  "name": "meltmedia/melt-blt",
   "description": "melt BLT",
   "keywords": [ "drupal", "testing", "deployment", "automation", "template" ],
   "authors": [
-      {
-          "name": "Sebastian Nievas"
-      }
+    {
+      "name": "Sebastian Nievas"
+    }
   ],
   "support": {
-      "issues": "https://github.com/sebinievas/melt-blt/issues"
+    "issues": "https://github.com/meltmedia/melt-blt/issues"
   },
   "type": "composer-plugin",
   "license": "GPL-2.0-only",
+  "require": {
+  },
   "config": {
       "sort-packages": true,
       "php": "7"
@@ -26,11 +28,11 @@
     "class": "Meltmedia\\Blt\\Composer\\Plugin",
     "composer-exit-on-patch-failure": true,
     "branch-alias": {
-        "dev-master": "9.x-dev"
+      "dev-master": "9.x-dev"
     }
   },
   "bin": [
-      "bin/melt-blt"
+    "bin/melt-blt"
   ],
   "minimum-stability": "dev",
   "prefer-stable": true,
