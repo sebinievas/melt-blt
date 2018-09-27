@@ -22,6 +22,16 @@
       "Meltmedia\\Blt\\": "src/"
     }
   },
+  "extra": {
+    "class": "Meltmedia\\Blt\\Composer\\Plugin",
+    "composer-exit-on-patch-failure": true,
+    "branch-alias": {
+        "dev-master": "9.x-dev"
+    }
+  },
+  "bin": [
+      "bin/melt-blt"
+  ],
   "minimum-stability": "dev",
   "prefer-stable": true,
   "scripts": {
