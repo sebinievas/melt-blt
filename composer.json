@@ -1,6 +1,6 @@
 
 {
-  "name": "meltmedia/melt-blt",
+  "name": "sebinievas/melt-blt",
   "description": "melt BLT",
   "keywords": [ "drupal", "testing", "deployment", "automation", "template" ],
   "authors": [
@@ -9,11 +9,12 @@
     }
   ],
   "support": {
-    "issues": "https://github.com/meltmedia/melt-blt/issues"
+    "issues": "https://github.com/sebinievas/melt-blt/issues"
   },
   "type": "composer-plugin",
   "license": "GPL-2.0-only",
   "require": {
+    "acquia/blt": "^9.1.0"
   },
   "config": {
       "sort-packages": true,
